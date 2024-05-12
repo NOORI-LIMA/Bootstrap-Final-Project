@@ -1,0 +1,102 @@
+.btn-primary,
+.btn-primary:visited,
+.btn-primary:focus{
+    background-color: #7a0dfd;
+    border-color: #8c2cff;
+
+
+}
+.btn-primary:hover,
+.btn-primary:active{
+    background-color: #5e13b9;
+    border-color: #6917ca;
+}
+.btn-primary:active:focus,
+.btn-primary:focus{
+    box-shadow: 0 0 0 .25rem rgba(199,49,253,0.5);
+}
+.tex-primary{
+    color: #6906df !important;
+
+}
+.bg-primary{
+    background-color: #f9f8ff !important;
+}
+.border-primary{
+    border-color: #6906df !important;
+}
+.alert-primary{
+    color: #5700c1;
+    background-color: #decfff;
+    border-color: #d5abff;
+}
+.map{
+    margin right: 5px auto;
+    margin left: 5px auto;
+}
+.map iframe{
+    width: 1120px;
+    height: 500px;
+}
+.card{
+    transition: all 0.3s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.input-container{
+    position: relative;
+    
+}
+.label{
+    
+    transition: all 0.2s;
+    padding: 0 text-underline-offset: 20px;
+    z-index: 1;
+    color: #3b3b3b;
+    top: 0 2px;
+    left: 10px;
+    
+}
+.text-input{
+    padding: 0.8rem;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all .3s;
+    color: #fff;
+}
+.label::before{
+    content: "";
+    
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+.text-input:focus{
+    border: 2px solid #e0f5ff;
+    background-color: #f3ebfc;
+    width: 480px;
+}
+.text-input:focus + .label, .filled{
+    top: -10px;
+    color: #e0f5ff;
+    font-size: 14px;
+}
+.text-input::placeholder{
+    opacity: 0;
+    font-size: 16px;
+    transition: all .3;
+
+}
+.text-input:focus::placeholder{
+    opacity: 1;
+    animation-delay: 0.2s;
+
+}
+title{
+    \F2C6
+}
